@@ -1,8 +1,8 @@
 import React from "react";
 import axios from 'axios';
+import ThreeBackground from './components/ThreeBackground';
 
 import './App.css';
-
 
 class App extends React.Component{
 
@@ -35,6 +35,7 @@ class App extends React.Component{
 
     return(
       <div className="app">
+        <ThreeBackground />
         <div className="card">
           <h1 className="heading">{advice}</h1>
         </div>
