@@ -38,6 +38,9 @@ class App extends React.Component{
         <ThreeBackground />
         <div className="card">
           <h1 className="heading">{advice}</h1>
+          <button className="refresh-button" onClick={this.fetchAdvice}>
+            GIVE ME ADVICE
+          </button>
         </div>
       </div>
     )
