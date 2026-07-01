@@ -56,6 +56,7 @@ While developing this project, I gained practical experience with:
 * Building responsive layouts using CSS
 * Writing cleaner and more maintainable frontend code
 * Improving UI/UX through simple and effective design principles
+* Included Three Fiber Library To use animated background components.
 
 ---
 
